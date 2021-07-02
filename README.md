@@ -25,8 +25,8 @@ Student Management system with Students,Marks - Add/Update/Delete operations
 	composer install
 
 - make a copy of environment file
-
-	cp .env.example .env
+	
+	* Run `cp .env.example .env`
 
 - generate project application key
 
