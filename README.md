@@ -20,10 +20,6 @@ Student Management system with Students,Marks - Add/Update/Delete operations
 
 - Clone the project to your directory
 
-- open command prompt in project root directory
-
-	`cd laravel-student-management-system`
-
 - get required library using composer
 	
 	`composer install`
