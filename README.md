@@ -22,21 +22,21 @@ Student Management system with Students,Marks - Add/Update/Delete operations
 
 - get required library using composer
 	
-	composer install
+	`composer install`
 
 - make a copy of environment file
 	
-	* Run `cp .env.example .env`
+	`cp .env.example .env`
 
 - generate project application key
 
-	php artisan key:generate
+	`php artisan key:generate`
 
 - set database details in env file
 	
-	DB_DATABASE={#database_name}
+	`DB_DATABASE={#database_name}
 	DB_USERNAME={#user}
-	DB_PASSWORD={#password }
+	DB_PASSWORD={#password }`
 
 - migrate database by running this command
 
