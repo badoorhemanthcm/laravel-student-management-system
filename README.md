@@ -38,15 +38,15 @@ Student Management system with Students,Marks - Add/Update/Delete operations
 
 	`DB_USERNAME={#user}`
 
-	`DB_PASSWORD={#password }`
+	`DB_PASSWORD={#password}`
 
 - migrate database by running this command
 
-	php artisan migrate
+	`php artisan migrate`
 
 - run local dev
 
-	php artisan serve
+	`php artisan serve`
 
 - Now you can register and make an account.
 - Login with registered details.
