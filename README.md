@@ -16,7 +16,7 @@ Student Management system with Students,Marks - Add/Update/Delete operations
 - PHP >=7.2
 
 
-## Steps to run
+## Setup
 
 - Clone the project to your directory
 
