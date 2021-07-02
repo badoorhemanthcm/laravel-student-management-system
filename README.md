@@ -11,9 +11,9 @@
 
 Student Management system with Students,Marks - Add/Update/Delete operations
 
-## System Requirements
+## Requirements
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- PHP >=7.2
 
 
 ## Steps to run
