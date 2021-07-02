@@ -34,9 +34,11 @@ Student Management system with Students,Marks - Add/Update/Delete operations
 
 - set database details in env file
 	
-	`DB_DATABASE={#database_name}
-	DB_USERNAME={#user}
-	DB_PASSWORD={#password }`
+	`DB_DATABASE={#database_name}`
+
+	`DB_USERNAME={#user}`
+
+	`DB_PASSWORD={#password }`
 
 - migrate database by running this command
 
