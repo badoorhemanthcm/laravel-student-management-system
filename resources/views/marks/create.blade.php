@@ -24,7 +24,7 @@
                         <div class="col-md-6">
                           <div class="form-group">
                             <label for="">Student</label>
-                            <select class="form-control" id="" name="student">
+                            <select class="form-control @error('student') is-invalid @enderror" id="" name="student">
 
                               @foreach($students as $student)
 

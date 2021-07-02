@@ -7,6 +7,48 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## About Project 
+
+Student Management system with Students,Marks - Add/Update/Delete operations
+
+## System Requirements
+
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+
+
+## Steps to run
+
+- Clone the project to your directory
+
+- get required library using composer
+	
+	composer install
+
+- make a copy of environment file
+
+	cp .env.example .env
+
+- generate project application key
+
+	php artisan key:generate
+
+- set database details in env file
+	
+	DB_DATABASE={#database_name}
+	DB_USERNAME={#user}
+	DB_PASSWORD={#password }
+
+- migrate database by running this command
+
+	php artisan migrate
+
+- run local dev
+
+	php artisan serve
+
+- Now you can register and make an account.
+- Login with registered details.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
